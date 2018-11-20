@@ -8,3 +8,4 @@ t/attach1.txt
 t/binary.out
 t/foobar.bin
 dist
+vendor

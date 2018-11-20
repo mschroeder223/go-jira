@@ -88,3 +88,8 @@
 [[constraint]]
   name = "golang.org/x/net"
   revision = "01c190206fbdffa42f334f4b2bf2220f50e64920"
+
+[[constraint]]
+  name = "gopkg.in/Netflix-Skunkworks/go-jira.v1"
+  source = "github.com/mschroeder223/go-jira"
+  branch = "master"

@@ -12,6 +12,7 @@ func RegisterAllCommands() {
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "backlog", Entry: CmdTransitionRegistry("Backlog")})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "block", Entry: CmdBlockRegistry()})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "browse", Entry: CmdBrowseRegistry(), Aliases: []string{"b"}})
+	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "clone", Entry: CmdCloneRegistry()})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "close", Entry: CmdTransitionRegistry("close")})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "comment", Entry: CmdCommentRegistry()})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "component add", Entry: CmdComponentAddRegistry()})
