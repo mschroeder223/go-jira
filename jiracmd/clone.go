@@ -45,7 +45,7 @@ func CmdCloneUsage(cmd *kingpin.CmdClause, opts *CloneOptions) error {
 
 // Clone with duplicate an existing issue and its sub-objects
 func CmdClone(o *oreo.Client, globals *jiracli.GlobalOptions, opts *CloneOptions) error {
-	data, err := jira.GetIssue(o, globals.Endpoint.Value, opts.Issue, opts)
+	_, err := jira.GetIssue(o, globals.Endpoint.Value, opts.Issue, opts)
 	if err != nil {
 		return err
 	}

@@ -220,8 +220,8 @@
   version = "v1.7.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:59e8f81f27f41b6057c999f829cf3ec119af096c8b6e84246f0e7ec9c75fa993"
+  branch = "clone"
+  digest = "1:55399f4c6553847cae4d578430e0f29c7dafabe92e4c5da2d970ff0c3c191ebc"
   name = "gopkg.in/Netflix-Skunkworks/go-jira.v1"
   packages = [
     ".",
@@ -230,7 +230,7 @@
     "jiradata",
   ]
   pruneopts = "NUT"
-  revision = "ee69afadd0da8518624407dac99bfbc5437043e9"
+  revision = "401eb8574485a287f6c0037f7af6e822876e6e81"
   source = "github.com/mschroeder223/go-jira"
 
 [[projects]]

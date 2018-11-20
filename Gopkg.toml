@@ -92,4 +92,4 @@
 [[constraint]]
   name = "gopkg.in/Netflix-Skunkworks/go-jira.v1"
   source = "github.com/mschroeder223/go-jira"
-  branch = "master"
+  branch = "clone"
